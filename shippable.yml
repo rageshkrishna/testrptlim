@@ -2,4 +2,9 @@ language: python
 python:
   - 2.7
 install: true
-script: true
+script: 
+  - mkdir -p shippable/codecoverage
+  - cp rep.txt shippable/codecoverage/rep1.csv
+  - cp rep.txt shippable/codecoverage/rep2.csv
+  - cp rep.txt shippable/codecoverage/rep3.csv
+  - cp rep.txt shippable/codecoverage/rep4.csv
